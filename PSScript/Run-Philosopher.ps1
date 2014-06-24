@@ -10,7 +10,7 @@ param(
 ,
 [bool]$mayStarve = $true
 ,
-[string]$scriptLocation ="C:\UBS\scripts\ps"
+[string]$scriptLocation ="C:\scripts\ps"
 ,
 [validateRange(2,1000)]
 [int]$maxTicksToEat = 1000
